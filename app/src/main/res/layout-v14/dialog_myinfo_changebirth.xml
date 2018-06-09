@@ -56,7 +56,7 @@ android:orientation="vertical" >
         android:layout_height="160dip"
         android:orientation="horizontal"
         android:gravity="center_vertical">
-        <com.example.administrator.myme.onselftimepack.WheelView
+        <com.example.administrator.myme.timeselector.item.WheelView
             android:id="@+id/wv_birth_year"
             android:layout_width="0dip"
             android:visibility="gone"
@@ -64,7 +64,7 @@ android:orientation="vertical" >
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             />
-        <com.example.administrator.myme.onselftimepack.WheelView
+        <com.example.administrator.myme.timeselector.item.WheelView
             android:id="@+id/wv_birth_month"
             android:layout_width="0dip"
             android:layout_weight="1"
@@ -72,7 +72,7 @@ android:orientation="vertical" >
             android:layout_gravity="center_vertical"
             />
 
-        <com.example.administrator.myme.onselftimepack.WheelView
+        <com.example.administrator.myme.timeselector.item.WheelView
             android:id="@+id/wv_birth_day"
             android:layout_width="0dip"
             android:layout_weight="1"

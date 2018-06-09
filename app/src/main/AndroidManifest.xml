@@ -47,7 +47,7 @@
         <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name=".onselftimepack.MyTimePack">
+        <activity android:name=".timeselector.TimeSelectorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

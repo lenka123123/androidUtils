@@ -17,7 +17,7 @@
  *  limitations under the License.
  */
 
-package com.example.administrator.myme.onselftimepack;
+package com.example.administrator.myme.timeselector.item;
 
 /**
  * Range for visible items.

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/time_button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="android默认日期选择器" />
+
+    <Button
+        android:id="@+id/time_button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="android默认时间选择器" />
+
+    <Button
+        android:id="@+id/time_button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="仿iOS时间选择器" />
+
+    <Button
+        android:id="@+id/time_button4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="仿iOS条件选择器" />
+
+    <Button
+        android:id="@+id/time_button5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="自定义选择器时分" />
+
+    <Button
+        android:id="@+id/time_button6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="自定义选择器底部" />
+
+    <Button
+        android:id="@+id/time_button7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="自定义选择器中间" />
+
+    <Button
+        android:id="@+id/time_button8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:text="自定义选择器年月" />
+
+</LinearLayout>

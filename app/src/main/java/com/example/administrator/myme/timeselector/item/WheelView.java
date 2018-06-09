@@ -17,7 +17,7 @@
  *  limitations under the License.
  */
 
-package com.example.administrator.myme.onselftimepack;
+package com.example.administrator.myme.timeselector.item;
 
 import android.content.Context;
 import android.database.DataSetObserver;

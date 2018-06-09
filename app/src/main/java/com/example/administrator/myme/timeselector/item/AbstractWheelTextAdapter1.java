@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.example.administrator.myme.onselftimepack;
+package com.example.administrator.myme.timeselector.item;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -23,6 +23,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.administrator.myme.timeselector.item.AbstractWheelAdapter;
 
 import java.util.ArrayList;
 
