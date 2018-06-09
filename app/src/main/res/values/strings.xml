@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Myme</string>
+
+    <string name="base_info">基本信息</string>
+    <string name="sign_up_info">报名信息</string>
+    <string name="sign_up_detail">报名详情</string>
+    <string name="recommended_info">推荐信息</string>
+    <string name="recommended_detail">推荐详情</string>
+    <string name="promote_info">推广信息</string>
+    <string name="salary_detail">薪资明细</string>
+    <string name="subsidies_info">补助信息</string>
+    <string name="subsidies_detail">补助详情</string>
+    <string name="account_info">账户信息</string>
+    <string name="account_detail">账户详情</string>
+    <string name="recruitment_info">招聘信息</string>
+    <string name="recruitment_detail">招聘详情</string>
+    <string name="recruitment_record">招聘记录</string>
+    <string name="work_order_info">工单信息</string>
 </resources>

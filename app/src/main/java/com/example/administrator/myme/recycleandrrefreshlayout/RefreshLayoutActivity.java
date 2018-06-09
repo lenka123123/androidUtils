@@ -1,16 +1,19 @@
-package com.example.administrator.myme.refreshlayout;
+package com.example.administrator.myme.recycleandrrefreshlayout;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
 import com.example.administrator.myme.R;
+import com.example.administrator.myme.verticaltablayout.FragmentAddAndRemove;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnLoadmoreListener;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
+
 import java.util.ArrayList;
+
 /**
  * 创建日期：2018/6/8 on 17:57
  * 描述:
@@ -21,6 +24,7 @@ public class RefreshLayoutActivity extends AppCompatActivity {
     private ListView listview;
     private ArrayList list;
     private ArrayAdapter adapter;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +34,7 @@ public class RefreshLayoutActivity extends AppCompatActivity {
         refreshLayout.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh(RefreshLayout refreshlayout) {
-                refreshlayout.finishRefresh(2000,false);//传入false表示刷新失败
+                refreshlayout.finishRefresh(2000, false);//传入false表示刷新失败
             }
         });
         refreshLayout.setOnLoadmoreListener(new OnLoadmoreListener() {

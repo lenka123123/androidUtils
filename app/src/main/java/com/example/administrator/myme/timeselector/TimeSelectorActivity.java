@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * 创建日期：2018/6/7 on 13:23
  * 描述:
- * 仿iOS需要包 ：  'com.contrarywind:Android-PickerView:3.2.4'
+ * 仿iOS需要 包 ：  'com.contrarywind:Android-PickerView:3.2.4'
  * 作者:yuxd Administrator
  */
 public class TimeSelectorActivity extends AppCompatActivity implements View.OnClickListener {
@@ -52,7 +52,6 @@ public class TimeSelectorActivity extends AppCompatActivity implements View.OnCl
         //日历
         calender = Calendar.getInstance();
         calender2 = Calendar.getInstance();
-
 
         findViewById(R.id.time_button1).setOnClickListener(this);
         findViewById(R.id.time_button2).setOnClickListener(this);
@@ -214,7 +213,6 @@ public class TimeSelectorActivity extends AppCompatActivity implements View.OnCl
         pvOptions.setPicker(options1Items);
         pvOptions.show();
     }
-
 
     public void button5() {
         final String[] str = new String[10];

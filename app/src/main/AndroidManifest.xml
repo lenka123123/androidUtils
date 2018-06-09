@@ -56,7 +56,7 @@
         </activity>
 
         <!-- 透明activity测试  -->
-        <activity android:name=".refreshlayout.RefreshLayoutActivity">
+        <activity android:name=".recycleandrrefreshlayout.RefreshLayoutActivity">
         </activity>
 
         <activity android:name=".permission.BoradcaseActivity">
